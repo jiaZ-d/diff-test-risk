@@ -1,0 +1,19 @@
+{
+  "repos": [
+    {
+      "name": "lifeos",
+      "path": "D:/ai/code/lifeos",
+      "testcases": [
+        { "path": "qa/testcases.csv" }
+      ]
+    },
+    {
+      "name": "some-service",
+      "url": "https://github.com/your-org/some-service",
+      "testcases": [
+        { "path": "docs/测试用例.xlsx", "sheet": null }
+      ]
+    }
+  ],
+  "report_dir": "test-reports"
+}
