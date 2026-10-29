@@ -1,6 +1,6 @@
 # diff-test-risk
 
-ZCode（及兼容 agents-skills 规范的 agent）技能：对比 git 仓库两个时间点 / commit / 分支 / tag 之间的**代码净差异**，生成面向测试的转测风险报告。
+面向 AI coding agent 的技能（agents-skills 规范）：对比 git 仓库两个时间点 / commit / 分支 / tag 之间的**代码净差异**，生成面向测试的转测风险报告。
 
 ## 功能
 
@@ -56,12 +56,4 @@ diff-test-risk/
 │   └── report-template.md              # 报告模板（单仓/多仓通用）
 └── assets/
     └── test-risk.config.example.json   # 配置示例
-```
-
-## 修改后生效
-
-本目录是源码副本，agent 实际加载的是 skills 安装目录下的副本。改完后同步过去：
-
-```
-xcopy /E /Y "D:\ai\code\diff-test-risk" "%USERPROFILE%\.agents\skills\diff-test-risk\"
 ```
